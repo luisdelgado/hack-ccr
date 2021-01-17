@@ -1,6 +1,6 @@
 // Toolbar
 .toolbar {
-    margin-bottom: 5%;
+    margin-bottom: 15px;
 }
 
 .example-spacer {
@@ -14,7 +14,7 @@
 
 // MEUS PROJETOS
 #title {
-    margin-top: 20%;
+    margin-top: 40px;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -41,4 +41,24 @@
     border-style: solid;
     border-color: #470A4D;
     border-width: 1px;
+}
+
+// ATALHOS
+.shortcuts {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.shortcut {
+    height: 56px;
+    background-color: #FFC300;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: transparent;
+    border-width: 1px;
+}
+
+.shortcuts p {
+    font-family: Roboto;
+    font-size: 10px;
 }
