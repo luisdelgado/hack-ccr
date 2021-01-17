@@ -1,3 +1,8 @@
+// Toolbar
+.toolbar {
+    margin-bottom: 5%;
+}
+
 .example-spacer {
     flex: 1 1 auto;
 }
@@ -5,4 +10,35 @@
 .mat-toolbar.mat-primary {
     background-color: #FFC300;
     color: #121212;
+}
+
+// MEUS PROJETOS
+#title {
+    margin-top: 20%;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.list-item {
+    font-family: Oswald;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    background-color: #EFEFEF;
+    margin-bottom: 1%;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #EFEFEF;
+    border-width: 1px;
+}
+
+#all-items {
+    color: #470A4D;
+    border-radius: 8px;
+    border-style: solid;
+    border-color: #470A4D;
+    border-width: 1px;
 }
