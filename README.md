@@ -1,5 +1,7 @@
 # HackCcr
 
+Front-end da solução do Time 151 para 2ª edição do Hackathon CCR. Como workflow de desenvolvimento do front-end, foram criadas branches para cada feature. Uma vez estáveis elas são recebidas por development. Uma vez que development esteja com um módulo concluído, esse vai para master.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.1.2.
 
 ## Development server
