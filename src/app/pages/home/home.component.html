@@ -4,7 +4,7 @@
     </button>
 </mat-toolbar>
 <div class="container-fluid landing-padding">
-    <img class="landing" src="assets/pexels-fede-roveda-3635788.jpg" />
+    <img class="landing" src="assets/landing_Prancheta 1.jpg" />
     <div class="col-12 col-xl-12">
         
         <!-- Descrição -->
@@ -13,7 +13,25 @@
             maior parte do orçamento destinado a eles está concentrada no Sudeste e, por vezes, não atinge
              os jovens das periferias. O Realiza! quer ouvir histórias que essas pessoas têm para contar e 
              nossa missão é permitir que elas consigam verba para isso!</p>
-        <button class="login" id="register">Cadastre-se</button>
-        <button class="login" (click)=login()>Entrar</button>
+        <button class="button" id="register">Cadastre-se</button>
+        <button class="button" (click)=login()>Entrar</button>
+
+        <!-- ÚLTIMOS EDITAIS ADICIONADOS -->
+        <p id="title">ÚLTIMOS EDITAIS ADICIONADOS</p>
+        <table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+            <!-- Nome -->
+            <ng-container matColumnDef="name">
+                <th mat-header-cell *matHeaderCellDef>Projeto</th>
+                <td mat-cell *matCellDef="let element"> 
+                    {{element.name}}<br>
+                    {{element.closingDate}}
+                </td>
+            </ng-container>
+    
+            <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+        <button class="button">Ver todos</button>
     </div>
 </div>

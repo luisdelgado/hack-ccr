@@ -4,7 +4,7 @@
     color: #121212;
 }
 
-// Título
+// Intro
 .landing-padding {
     padding-left: 0px;
     padding-right: 0px;
@@ -16,7 +16,6 @@
     overflow: hidden;
 }
 
-// Intro
 #subtitle {
     margin-top: 40px;
     color: #470A4D;
@@ -31,7 +30,7 @@
     font-weight: normal;
 }
 
-.login {
+.button {
     font-family: Roboto;
     margin-top: 5px;
     width: 100%;
@@ -46,4 +45,12 @@
 #register {
     background-color: #470A4D;
     color: #FFFFFF;
+}
+
+// ÚLTIMOS EDITAIS ADICIONADOS
+#title {
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
 }
