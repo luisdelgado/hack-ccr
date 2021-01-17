@@ -44,6 +44,8 @@
 }
 
 #all-items {
+    margin-top: 5px;
+    width: 100%;
     color: #470A4D;
     border-radius: 8px;
     border-style: solid;
@@ -69,4 +71,9 @@
 .shortcuts p {
     font-family: Roboto;
     font-size: 10px;
+}
+
+// EDITAIS
+table {
+    width: 100%;
 }
