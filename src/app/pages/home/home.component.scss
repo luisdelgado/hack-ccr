@@ -72,3 +72,31 @@
     background-color: #FFFFFF;
     margin-bottom: 15px;
 }
+
+// Rodapé
+.toolbar {
+    margin-bottom: 15px;
+}
+
+.footer {
+    margin-top: 15px;
+}
+
+.logo-padding {
+    padding-left: 0px;
+}
+
+.logo {
+    width: 100%;
+}
+
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+.footer p {
+    font-family: Roboto;
+    color: #470A4D;
+    font-size: 10px;
+    line-height: 12px;
+}
