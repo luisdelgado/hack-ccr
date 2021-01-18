@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 export interface Edict {
   name: string;
@@ -21,9 +22,14 @@ export class DashboardComponent implements OnInit {
   displayedColumns: string[] = ['name', 'progress'];
   dataSource = ELEMENT_DATA;
 
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit() {
   }
 
+  projects() {
+    this.router.navigateByUrl('/projects');
+  }
 }

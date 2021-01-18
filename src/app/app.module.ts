@@ -7,12 +7,14 @@ import { DashboardComponent } from './pages/dashboard/dashboard.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatIconModule, MatListModule, MatTableModule, MatToolbarModule } from '@angular/material';
 import { HomeComponent } from './pages/home/home.component';
+import { ProjectsListComponent } from './pages/projects-list/projects-list.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
-    HomeComponent
+    HomeComponent,
+    ProjectsListComponent
   ],
   imports: [
     BrowserModule,
